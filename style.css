@@ -3,7 +3,9 @@
     margin: 0;
     font-family: sans-serif;
 }
-
+header{
+    background-color: #f8f9fd;;
+}
 .top-bar{
     display: flex;
     justify-content:space-evenly;
