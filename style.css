@@ -104,3 +104,41 @@ nav ul li a{
 .btn2:hover{
     border: var(--border);
 }
+
+
+/* display grid */
+
+.first-row img ,.second-row img{
+    width: 100%;
+    height: 50vh;
+   
+}
+
+.first-row{
+    display: flex;
+    gap: 5px;
+}
+.first-row > div {
+    flex: 1;
+}
+.middile-section{
+    display: flex;
+    flex-direction: column;
+}
+.middile-section img{
+    height: 25vh;
+} 
+.second-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.second-middle-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.second-row > div {
+    flex: 1;
+}
