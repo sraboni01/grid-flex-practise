@@ -139,6 +139,10 @@ nav ul li a{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+.second-middle-row img{
+    height: 100%;
+    width: 100%;
+}
 .second-row > div {
     flex: 1;
 }
